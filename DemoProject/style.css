@@ -1,0 +1,78 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainHead{
+    background-color: coral;
+     color: antiquewhite;
+     font-size: larger;
+     text-align: center;
+     padding: 10px 0px;
+}
+
+
+.navbar{
+    background-color: black;
+    padding: 10px ;
+}
+ 
+.navbar li{
+    display: inline;
+    padding: 220px;
+}
+.navbar a{
+    color: aliceblue;
+}
+
+.mainBody{
+    
+    min-height: 400px;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/471904863/photo/goddess-during-durga-puja-celebrations.jpg?s=2048x2048&w=is&k=20&c=NYljpZxV9y1SVhaqi43ed5aR7glLJhjiGhokVmkaHDs=);
+     background-position: center;
+     background-size: cover;
+     text-align: center;
+}
+
+.mainBody h1{
+    color: wheat;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.mainContainer{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    min-height: 100px;
+}
+
+.subItem1{
+    box-sizing: border-box;
+    width: 70%;
+    font-size: 16px;
+    float: left;
+    padding: 20px;
+}
+
+.subItem2{
+    box-sizing: border-box;
+    width: 30%;
+    font-size: 16px;
+    float: right;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+

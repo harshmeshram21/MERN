@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.container{
+    border: 2px solid blue;
+    background-color: brown;
+    height:4000px ;
+}
+
+    .box{
+        display: inline-block ;
+        background-color: #c2df1f;
+        border: 2px solid cornsilk;
+        height:150px ;
+        width: 150px; 
+        margin: 2px;
+    }
+     #box3{
+        /* position: relative; */
+         position: absolute;
+        left: 50px;
+        top: 150px;
+
+        /* position: sticky;
+        top: 3px; */
+    }
+
+    .maindiv{
+        background-color: bisque;
+        height: 100px;
+        width: 100%;
+    }
+
+ .hcontainer{
+    color: red;
+ }
+
+ h1{
+    color: initial;
+ }
+ span{
+    color: red;
+    border: 2px solid blue;
+ }
+
+ .something span{
+color: inherit;
+ }
+ .box{
+    color: red;
+}
+/* .boxh span{
+    color: inherit;
+} */
+    </style>
+</head> 
+<body>
+    <!-- <div class="maindiv">
+    </div>
+    <div class="container">
+    <div class="box" id="box1">one</div>
+    <div class="box" id="box2">two</div>
+    <div class="box" id="box3">three</div>
+    <div class="box" id="box4">four</div>
+</div> -->
+
+
+
+
+<!-- <div class="hcontainer">
+    <h1>header</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ex delectus corrupti est, provident placeat!</p>
+</div>
+
+
+<div>Lorem ipsum <span> dolor sit amet</span> consectetur adipisicing elit. Quis, sapiente.</div>
+<div class="something" style="color: deeppink;">Lorem ipsum <span> dolor sit amet</span> consectetur adipisicing elit. Quis, sapiente.</div>
+<div style="color: chartreuse;">Lorem ipsum <span> dolor sit amet</span> consectetur adipisicing elit. Quis, sapiente.</div> -->
+
+
+<div class="boxh">Lorem ipsum <span>dolor sit, amet</span> consectetur adipisicing elit. Tempore, quam.</div>
+<div class="boxh" style="color: aqua;">Lorem ipsum <span>dolor sit, amet</span> consectetur adipisicing elit. Tempore, quam.</div>
+
+
+</body>
+</html>

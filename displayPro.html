@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .top {
+            height: 800px;
+            width: 100%;
+            background-color: aqua;
+        }
+
+        .middle {
+            height: 1000px;
+            width: 100%;
+            background-color: #c61515;
+        }
+
+        .bottom {
+            height: 500px;
+            width: 100%;
+            background-color: blueviolet;
+        }
+
+        /* Position container relative for absolute positioning inside it */
+        .container {
+            position: relative;
+            height: 500px; /* You can adjust the height of the container as needed */
+            background-color: lightgrey;
+        }
+
+        /* Box styles and absolute positioning */
+        .box {
+            background-color: orange;
+            height: 150px;
+            width: 150px;
+            position: absolute;
+        }
+
+        /* Position each box */
+        #box1 {
+            top: 20px;
+            left: 20px;
+        }
+
+        #box2 {
+            top: 20px;
+            right: 20px;
+        }
+
+        #box3 {
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="top"></div>
+
+    <div class="middle">
+        <div class="container">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+        </div>
+    </div>
+
+    <div class="bottom"></div>
+
+</body>
+</html>
